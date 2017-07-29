@@ -2,6 +2,7 @@
 
 ## Middleware
 https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware
+*  https://docs.microsoft.com/en-us/aspnet/core/fundamentals/url-rewriting
 
 
 # ASP.Net MVC 5
