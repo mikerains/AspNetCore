@@ -14,3 +14,9 @@ https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware
 # .NET Guide
 *   .Net Standards, Metapackage and Framework Specifications: https://docs.microsoft.com/en-us/dotnet/core/packages
 
+# ASYNC Code - async / await
+* Use .ConfigureAwait(false)?  --- https://blog.stephencleary.com/2012/07/dont-block-on-async-code.html
+   * https://stackoverflow.com/questions/13489065/best-practice-to-call-configureawait-for-all-server-side-code
+   * https://msdn.microsoft.com/en-us/magazine/jj991977.aspx
+  
+
