@@ -5,3 +5,5 @@
 
 # Dependency Injection
 *  Autofac: http://docs.autofac.org/en/latest/integration/owin.html
+# Lambdas, Expressions and Expression trees
+* https://www.codeproject.com/Articles/17575/Lambda-Expressions-and-Expression-Trees-An-Introdu
