@@ -17,7 +17,7 @@
   * iterates each provider and displays first child item of each
 *  Add-Type -AssemblyName System.Windows.Forms
   * adds assembly reference
-*  Add-Account
+*  Add-AzureAccount or Add-RmAzzureAccount
   * prompts for Azure credentials
 *  Select-AzureRmSubscription -SubscriptionId a0a6519a-e86d-4327-8cf9-55fdb6b17541
   * downloads subscription information into appdata\roaming making it available for powersheel azure cmdlets
