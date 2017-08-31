@@ -9,44 +9,46 @@
 
 # Notes
 ## from Channel 9 Basic video:
-### Get-PSDrive
-Lists all providers
-### cmd /c set
-runs a dos command when there is no PS alias
-### Get-PSDrive | foreach-Object {$PSDrive=$_.Name; "`nPSDrive: `t$PSDrive"; Get-ChildItem "$($_.Name):" | Select-Object -First 1}
-iterates each provider and displays first child item of each
-### Add-Type -AssemblyName System.Windows.Forms
-adds assembly reference
-### Add-Account
-prompts for Azure credentials
-### Select-AzureRmSubscription -SubscriptionId a0a6519a-e86d-4327-8cf9-55fdb6b17541
-downloads subscription information into appdata\roaming making it available for powersheel azure cmdlets
-### Get-AzureRmSqlDatabase -ResourceGroupName "m7computers" -ServerName "m7sql" -DatabaseName m7computers
-get azure databases in resource group m7computers
+*  Get-PSDrive
+  * Lists all providers
+*  cmd /c set
+  * runs a dos command when there is no PS alias
+*  Get-PSDrive | foreach-Object {$PSDrive=$_.Name; "`nPSDrive: `t$PSDrive"; Get-ChildItem "$($_.Name):" | Select-Object -First 1}
+  * iterates each provider and displays first child item of each
+*  Add-Type -AssemblyName System.Windows.Forms
+  * adds assembly reference
+*  Add-Account
+  * prompts for Azure credentials
+*  Select-AzureRmSubscription -SubscriptionId a0a6519a-e86d-4327-8cf9-55fdb6b17541
+  * downloads subscription information into appdata\roaming making it available for powersheel azure cmdlets
+*  Get-AzureRmSqlDatabase -ResourceGroupName "m7computers" -ServerName "m7sql" -DatabaseName m7computers
+  * get azure databases in resource group m7computers
 
 
-## get-help *-service
+*  get-help *-service
 
-### get-service -name sql*
+*  get-service -name sql*
 
-### get-alias | where-object {$_.ResolvedCommandName -eq "Remove-Item"}
+*  get-alias | where-object {$_.ResolvedCommandName -eq "Remove-Item"}
 
-### get-command -name get*
+*  get-command -name get*
 
-### $env:PSModulePath.Split(";")
+*  $env:PSModulePath.Split(";")
 
-### Get-Module -ListAvailable
+*  Get-Module -ListAvailable
 
-### Get-Module azure | Measure-Object
+*  Get-Module azure | Measure-Object
 
-### get-command -Module Microsoft.Powershell.utility | measure-object
+*  get-command -Module Microsoft.Powershell.utility | measure-object
 
-### get-verb | sort-object -property verb
+*  get-verb | sort-object -property verb
 
-### Get-command -Noun variable
+*  Get-command -Noun variable
 
-### get-help Get-Variable
+*  get-help Get-Variable
 
-### Get-Variable -Name PSVersionTable -Valueonly
+*  Get-Variable -Name PSVersionTable -Valueonly
 
+*  Get-AzureSqlDatabaseServer | Where-object{$_.ServerName -match "7"}
+  * find Sql Servers with a 7 in the name
 
