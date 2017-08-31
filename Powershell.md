@@ -10,19 +10,19 @@
 # Notes
 ## from Channel 9 Basic video:
 *  Get-PSDrive
-  * Lists all providers
+   * Lists all providers
 *  cmd /c set
-  * runs a dos command when there is no PS alias
+   * runs a dos command when there is no PS alias
 *  Get-PSDrive | foreach-Object {$PSDrive=$_.Name; "`nPSDrive: `t$PSDrive"; Get-ChildItem "$($_.Name):" | Select-Object -First 1}
-  * iterates each provider and displays first child item of each
+   * iterates each provider and displays first child item of each
 *  Add-Type -AssemblyName System.Windows.Forms
-  * adds assembly reference
+   * adds assembly reference
 *  Add-AzureAccount or Add-RmAzzureAccount
-  * prompts for Azure credentials
+   * prompts for Azure credentials
 *  Select-AzureRmSubscription -SubscriptionId a0a6519a-e86d-4327-8cf9-55fdb6b17541
-  * downloads subscription information into appdata\roaming making it available for powersheel azure cmdlets
+   * downloads subscription information into appdata\roaming making it available for powersheel azure cmdlets
 *  Get-AzureRmSqlDatabase -ResourceGroupName "m7computers" -ServerName "m7sql" -DatabaseName m7computers
-  * get azure databases in resource group m7computers
+   * get azure databases in resource group m7computers
 
 
 *  get-help *-service
@@ -50,5 +50,5 @@
 *  Get-Variable -Name PSVersionTable -Valueonly
 
 *  Get-AzureSqlDatabaseServer | Where-object{$_.ServerName -match "7"}
-  * find Sql Servers with a 7 in the name
+   * find Sql Servers with a 7 in the name
 
