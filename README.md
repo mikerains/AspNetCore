@@ -1,5 +1,9 @@
 # AspNetCore
 
+## .NET Standard, .Net Core, .Net Framework salad
+* Finally a comprehensible article! --- https://msdn.microsoft.com/magazine/mt842506?MC=.NET&MC=CCPLUS&MC=CSHARP&MC=AppDnDTool&MC=Vstudio
+
+
 ## Middleware
 https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware
 *  https://docs.microsoft.com/en-us/aspnet/core/fundamentals/url-rewriting
