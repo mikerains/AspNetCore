@@ -2,6 +2,7 @@
 
 ## Get Started - Write .Net Core Apps When and Where You Want (Sept 2017, .Net Core 2.0)
 * https://msdn.microsoft.com/magazine/mt842494?MC=.NET&MC=CCPLUS&MC=CSHARP&MC=AppDnDTool&MC=Vstudio
+   * To build a Docker container, you need Docker’s tools for your OS installed (learn more and download from docker.com). Once you have the requirements installed, all you need to do in Visual Studio or Visual Studio for Mac is right-click the project, choose Add and then select Docker Support. ...
 
 ## .NET Standard, .Net Core, .Net Framework salad
 * Finally a comprehensible article! --- https://msdn.microsoft.com/magazine/mt842506?MC=.NET&MC=CCPLUS&MC=CSHARP&MC=AppDnDTool&MC=Vstudio
