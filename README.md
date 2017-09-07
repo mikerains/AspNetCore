@@ -1,8 +1,13 @@
 # AspNetCore
 
+## Get Started - Write .Net Core Apps When and Where You Want (Sept 2017, .Net Core 2.0)
+* https://msdn.microsoft.com/magazine/mt842494?MC=.NET&MC=CCPLUS&MC=CSHARP&MC=AppDnDTool&MC=Vstudio
+
 ## .NET Standard, .Net Core, .Net Framework salad
 * Finally a comprehensible article! --- https://msdn.microsoft.com/magazine/mt842506?MC=.NET&MC=CCPLUS&MC=CSHARP&MC=AppDnDTool&MC=Vstudio
 
+## Deploy AngularJS SPA to Azure
+* https://blogs.msdn.microsoft.com/azureossds/2015/11/28/creating-an-angularjs-single-page-application-with-routes-on-azure-webapps/
 
 ## Middleware
 https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware
