@@ -2,6 +2,8 @@
 ## .Net Core 2.0 - Downloads, Tutorials, Samples, etc
 * .Net Download SDK, Tutorials, etc: https://blogs.msdn.microsoft.com/dotnet/2017/08/14/announcing-net-core-2-0/
 * .Net Core Guide: https://docs.microsoft.com/en-us/dotnet/core/
+* Command Line Interface: https://docs.microsoft.com/en-us/dotnet/core/tools/index?tabs=netcore2x
+
 
 
 * Using HTTPClient properly under load 
